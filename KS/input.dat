@@ -1,0 +1,18 @@
+200
+20
+0
+1e-13
+0.1
+0.0000001
+0.01
+
+
+
+-------------------------------------------------------
+num_mesh_points //numero punti mesh: include bordi. la dimensione di T cinetica  sara' dim = num_mesh_points - 2
+L //lato minore z
+K // campo esterno
+prec //autoconsistenza
+sigma//densita' particellare media. Unita' di superficie.
+toll //bisezione calcolo sigma
+alpha // mixing // In particolar per alte densita' si notva come sia richiesto un alpha << 1. In genrale alpha = 0.1 e per avere sempre convergenza alpha = 0.001
