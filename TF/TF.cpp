@@ -182,7 +182,7 @@ void TF::density(void)
 
 
     string title = "DAT/density_K=" +a_K+"_sigma=" + a_sigma + ".dat";
-    fstream fileout (title.c_str(), ios::app);
+    fstream fileout (title.c_str(), ios::out);
     
     //fileout.open("DAT/density_K=" +to_string(K)+"_sigma=" + to_string(fix_sigma) + ".dat", ios::out);
     //cout << "f(a) =" << bis(pot_chimical_inf) << endl;
